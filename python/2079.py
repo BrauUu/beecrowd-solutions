@@ -1,6 +1,3 @@
-from pickle import FALSE
-
-
 def isCousin(number):
     if number < 2:
         return False
