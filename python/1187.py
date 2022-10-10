@@ -9,11 +9,11 @@ for i in range(12):
         value = float(input())
         arr[i].append(value)
         
-        if g > i:
+        if g > i and g < (11 - i):
             sum += value
             
 if char == 'M':
-    print(f'{(sum / 66):.1f}')
+    print(f'{(sum / 30):.1f}')
 else:
     print(f'{sum:.1f}')
         

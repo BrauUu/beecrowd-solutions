@@ -9,7 +9,7 @@ for i in range(12):
         value = float(input())
         arr[i].append(value)
         
-        if g > i:
+        if g < i:
             sum += value
             
 if char == 'M':
