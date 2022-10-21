@@ -12,7 +12,7 @@ while True:
         count += 1
         num = 'numero' if sum == 1 else 'numeros'
         print(f'Caso {count}: {sum} {num}')
-        print('0 ' + numbers + '\n')
+        print('0 ' + (numbers).strip() + '\n')
         
     except:
         break
