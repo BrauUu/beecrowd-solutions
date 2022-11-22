@@ -12,9 +12,7 @@ while True:
 
         distance = abs((xI + yI) - (xF + yF))
 
-        distanceAfterMoves = (vI * 1.5) + distance
-
-        if  r1 + r2 >= distanceAfterMoves:
+        if  r1 + r2 >= distance + (vI * 1.5):
             print('Y')
         else:
             print('N')
