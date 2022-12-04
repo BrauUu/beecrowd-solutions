@@ -14,20 +14,20 @@ while True:
             if value > x + 1 - j:
                 value -= 1
                 if j == x:
-                    line = line + str(value)
+                    line = line + '  ' + str(value) 
                 else:
-                    line = line + str(value) + '   '
+                    line = line + '  ' + str(value) + ' '
             elif count > value:
                 value += 1
                 if j == x:
-                    line = line + str(value)
+                    line = line + '  ' + str(value) 
                 else:
-                    line = line + str(value) + '   '
+                    line = line + '  ' + str(value) + ' '
             elif j > count:
                 if j == x:
-                    line = line + str(value)
+                    line = line + '  ' + str(value) 
                 else:
-                    line = line + str(count) + '   '
+                    line = line + '  ' + str(value) + ' '
                 
         print(line)
     print()
