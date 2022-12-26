@@ -14,7 +14,7 @@ for i in range(n):
     y = ceil(x/2)
 
     for g in range(y):
-        if g == y - 1 and g % 2 == 0 and len(intArr) % 2 == 1:
+        if g == y - 1 and len(intArr) % 2 == 1:
             res += f'{intArr[x - (g + 1)]}'
         else:
             if g == y - 1:
