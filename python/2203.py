@@ -1,3 +1,4 @@
+from math import sqrt
 while True:
     try:
         inputs = input().split()
@@ -10,7 +11,7 @@ while True:
         r1 = int(inputs[5])
         r2 = int(inputs[6])
 
-        distance = abs((xI + yI) - (xF + yF))
+        distance = sqrt(pow((xF - xI),2) + pow((yF - yI),2))
 
         if  r1 + r2 >= distance + (vI * 1.5):
             print('Y')
