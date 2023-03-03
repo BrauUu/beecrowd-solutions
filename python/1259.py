@@ -11,7 +11,6 @@ oddArr = [x for x in arr if x % 2 == 1]
 evenArr.sort()
 oddArr.sort(reverse=True)
 
-print('-----------')
 for x in evenArr:
     print(x)
     
