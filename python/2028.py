@@ -8,11 +8,11 @@ while True:
             if i == 0:
                 sum += 1
             sum += i
-            numbers = (str(i) + ' ') * i  +  numbers
+            numbers = (str(i) + ' ') * (i if i > 0 else 1)  +  numbers
         count += 1
         num = 'numero' if sum == 1 else 'numeros'
         print(f'Caso {count}: {sum} {num}')
-        print('0 ' + (numbers).strip() + '\n')
+        print((numbers).strip() + '\n')
         
     except:
         break
