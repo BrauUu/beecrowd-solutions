@@ -1,18 +1,14 @@
 from math import ceil
 
-laps, signs = input().split()
+laps, signs = list(map(int,input().split()))
 
-totalSigns = int(signs) * int(laps)
-signsCountTenPercente = totalSigns / 100 * 10
-signsCount = signsCountTenPercente
+totalSigns = signs * laps
+each10PercentSignsCount = totalSigns / 10
+signsCount = each10PercentSignsCount
 
 res = ''
-i = 0
-while i < 9:
+for i in range(9):
     res += str(ceil(signsCount)) + ' '
-    signsCount += signsCountTenPercente
-    i += 1
+    signsCount += each10PercentSignsCount
     
 print(res.strip())
-
-
