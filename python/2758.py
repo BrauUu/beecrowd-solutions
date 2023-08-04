@@ -1,10 +1,5 @@
-a, b = input().split()
-c, d = input().split()
-
-a = float(a)
-b = float(b)
-c = float(c)
-d = float(d)
+a, b = list(map(float, input().split()))
+c, d = list(map(float, input().split()))
 
 print(
     f'A = {a:.6f}, B = {b:.6f}\n'
