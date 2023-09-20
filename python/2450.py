@@ -40,6 +40,3 @@ for i in range(n):
             break 
 
 print('N' if flag else 'S')
-      
-            
-        
