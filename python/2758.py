@@ -1,5 +1,11 @@
+import struct
+
+
 a, b = list(map(float, input().split()))
 c, d = list(map(float, input().split()))
+
+a = struct.unpack('f', struct.pack('f', a))[0]
+b = struct.unpack('f', struct.pack('f', b))[0]
 
 print(
     f'A = {a:.6f}, B = {b:.6f}\n'
