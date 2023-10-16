@@ -6,4 +6,3 @@ while True:
     print(n1 + n2 == res)     
     if n1 == n2 == res:
         break   
-    
