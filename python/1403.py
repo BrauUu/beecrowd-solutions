@@ -33,4 +33,4 @@ while True:
             seconds.append(player)  
 
     seconds.sort()
-    print(*seconds, sep=" ", end=" ")
+    print(*seconds,"", sep=" ")
