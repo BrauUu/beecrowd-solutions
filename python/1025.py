@@ -17,7 +17,6 @@ def recursiveBinarySearch(x, arr, begin, end):
     else:
         if middleValue < x:          
             begin = middle + 1
-            pos = begin
         elif middleValue > x:
             end = middle - 1
             
