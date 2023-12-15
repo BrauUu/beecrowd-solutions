@@ -1,6 +1,8 @@
+from sys import stdout, stdin
+
 while True:
     try:
-        s = input()
+        s = str(stdin.readline())[:-1]
         
         if s == '':
             break
@@ -12,8 +14,11 @@ while True:
             for i in range(len(s) - 1, -1, -1):
                 sum += (ord(s[i]) - 64 ) * count
                 count *= 26
-            
-        print(sum if sum <= 16384 and sum > 0 else 'Essa coluna nao existe Tobias!')
+                
+        if sum <= 16384 and sum > 0: 
+            stdout.write(f'{sum}\n')
+        else:
+            stdout.write('Essa coluna nao existe Tobias!\n')
             
     except:
         break
