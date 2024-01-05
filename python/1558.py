@@ -14,4 +14,3 @@ while True:
         print('YES' if flag == True else 'NO')
     except:
         break    
-    
