@@ -1,5 +1,5 @@
 local t = io.read('n')
-io.read()
+local _ = io.read()
 local entry = io.read()
 
 local count = 0
