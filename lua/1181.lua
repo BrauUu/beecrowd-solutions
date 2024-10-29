@@ -19,6 +19,6 @@ end
 
 if operation == 'S' then
     print(string.format("%.1f", sum))
-elseif 'M' then
+elseif operation == 'M' then
     print(string.format("%.1f", sum/12))
 end
