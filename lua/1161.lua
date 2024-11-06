@@ -23,9 +23,6 @@ end
 
 
 while true do
-    -- for _, item in pairs(sumTable) do
-    --     print(item)
-    -- end
    if not pcall(main) then
         break
    end
