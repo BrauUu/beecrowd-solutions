@@ -1,5 +1,0 @@
-{
-    "Lua.diagnostics.disable": [
-        "cast-local-type"
-    ]
-}
