@@ -6,7 +6,7 @@
         "name": "Lua Debug",
         "program": {
           "lua": "lua",
-          "file" : "${file}"
+          "file": "1026.lua"
         },
       }
     ]
