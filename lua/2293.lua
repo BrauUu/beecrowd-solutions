@@ -30,11 +30,13 @@ table.sort(sumXTable, function (a, b)
     if a > b then
         return a
     end
+    return b
 end)
 table.sort(sumYTable, function (a, b)
     if a > b then
         return a
     end
+    return b
 end)
 
 if sumXTable[1] > sumYTable[1] then

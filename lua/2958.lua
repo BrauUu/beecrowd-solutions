@@ -27,6 +27,6 @@ table.sort(t, function (a, b)
     end
 end)
 
-for ind, v in ipairs(t) do
+for _, v in ipairs(t) do
     print(v)
 end
