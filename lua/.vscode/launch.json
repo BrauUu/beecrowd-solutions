@@ -6,7 +6,7 @@
         "name": "Lua Debug",
         "program": {
           "lua": "lua",
-          "file": "1026.lua"
+          "file": "2465.lua"
         },
       }
     ]
